@@ -34,7 +34,7 @@ def salvar_texto_em_arquivo(texto, caminho_saida):
         arquivo.write(texto)
 
 
-arquivo_audio = "C:\\Users\\maest\\OneDrive\\Área de Trabalho\\bucho\\André_Neto fumo.mp4"
+arquivo_audio = "caminho do arquivo"
 texto = converter_audio_para_texto(arquivo_audio)
 
 arquivo_texto_saida = arquivo_audio.replace('.m4a', '.txt').replace('.m4p', '.txt')
